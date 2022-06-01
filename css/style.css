@@ -175,6 +175,7 @@ h1 .big,
 
 h1 .biggest,
 .heading-1 .biggest {
+	font-family: "Playfair Display", serif;
 	font-size: 1.8em;
 	line-height: 1em;
 	letter-spacing: -.02em;
@@ -631,7 +632,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 @media (min-width: 1200px) {
 	.main-decorated-box .decorated-subtitle {
-		font-size: 30px;
+		font-size: 40px;
 		padding: 8px 10px 10px 38px;
 	}
 	.main-decorated-box .decorated-subtitle:before {
