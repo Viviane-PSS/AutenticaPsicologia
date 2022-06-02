@@ -675,6 +675,14 @@ a[href*='tel'], a[href*='mailto'] {
 	position: relative;
 	padding: 10px 0 0 55px;
 	font-family: "Poppins", sans-serif;
+	
+}
+
+.box-default-externo{
+	
+	border: 5px solid #2eb1b6 ;
+	border-radius: 40px;
+	border-image: url(.\images\bg-1-1700x803b.jpg) 150 round;
 }
 
 @media (min-width: 1200px) {
@@ -694,6 +702,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-default-description {
 	font-family: "Montserrat", serif;
+	font-size: 1.2em;
 }
 
 .box-default-icon {
@@ -2015,7 +2024,7 @@ input:-webkit-autofill ~ .form-validation {
 	width: 100%;
 	min-height: 50px;
 	padding: 12px 19px 5px 5px;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
 	color: #888888;
@@ -4435,6 +4444,9 @@ html.boxed body {
 */
 .text-italic {
 	font-style: italic;
+}
+.text-info {
+	text-align: justify;
 }
 
 .text-normal {
