@@ -260,7 +260,7 @@
 			// Custom validator - phone number
 			regula.custom({
 				name: 'PhoneNumber',
-				defaultMessage: 'Invalid phone number format',
+				defaultMessage: 'Formato do número de telfone inválido.',
 				validator: function() {
 					if ( this.value === '' ) return true;
 					else return /^(\+\d)?[0-9\-\(\) ]{5,}$/i.test( this.value );
@@ -292,19 +292,19 @@
 			var regularConstraintsMessages = [
 				{
 					type: regula.Constraint.Required,
-					newMessage: "The text field is required."
+					newMessage: "O campo é obrigatório."
 				},
 				{
 					type: regula.Constraint.Email,
-					newMessage: "The email is not a valid email."
+					newMessage: "Email inválido."
 				},
 				{
 					type: regula.Constraint.Numeric,
-					newMessage: "Only numbers are required"
+					newMessage: "Somente números são aceitos"
 				},
 				{
 					type: regula.Constraint.Selected,
-					newMessage: "Please choose an option."
+					newMessage: "Por favor, escolha uma opção."
 				}
 			];
 
@@ -1094,4 +1094,5 @@
 			}
 		}
 	});
+
 }());
