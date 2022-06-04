@@ -636,7 +636,7 @@ a[href*='tel'], a[href*='mailto'] {
 		font-size: 40px;
 		padding: 8px 10px 10px 38px;
 	}
-	.main-decorated-box .decorated-subtitle:before {
+	/* .main-decorated-box .decorated-subtitle:before {
 		content: '';
 		display: block;
 		width: 157px;
@@ -646,7 +646,7 @@ a[href*='tel'], a[href*='mailto'] {
 		top: 56%;
 		left: -167px;
 		transform: translateY(-50%);
-	}
+	} */
 }
 
 .main-decorated-box > * {
@@ -656,7 +656,7 @@ a[href*='tel'], a[href*='mailto'] {
 .main-decorated-box:before {
 	content: '';
 	position: absolute;
-	background: url("../images/decor-image-1-576x538.png") no-repeat center center;
+	/* background: url("../images/decor-image-1-576x538.png") no-repeat center center; */
 	background-size: contain;
 	width: 100%;
 	height: 100%;
@@ -8817,6 +8817,17 @@ html.rd-navbar-fixed-linked .page {
 .layer-6 {
 	top: 24%;
 	left: 19.5%;
+}
+
+
+/* efeito titulo */
+.efeito.mostrar{
+    opacity: 1;
+}
+
+.efeito{
+    opacity: 0.5;
+    transition: opacity 1s;
 }
 
 /* Icone bootstrap */
