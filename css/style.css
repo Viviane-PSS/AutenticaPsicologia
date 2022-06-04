@@ -750,15 +750,15 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .pricing-box hr {
-	margin-top: 25px;
+	margin-top: 20px;
 	display: block;
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .pricing-box-tittle {
-	letter-spacing: .16em;
-	text-transform: uppercase;
-	font-weight: 400;
+	letter-spacing: .13em;
+	/* text-transform: uppercase; */
+	font-weight: 300;
 	line-height: 1;
 }
 
@@ -4449,6 +4449,7 @@ html.boxed body {
 }
 .text-info {
 	text-align: justify;
+	font-size: 1.2em;
 }
 
 .text-normal {
