@@ -745,7 +745,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .pricing-box {
-	padding: 60px 55px 70px 55px;
+	padding: 50px 45px 60px 45px;
 	text-align: center;
 }
 
@@ -4452,6 +4452,10 @@ html.boxed body {
 	font-size: 1.2em;
 }
 
+.text-justificado {
+	text-align: justify;	
+}
+
 .text-normal {
 	font-style: normal;
 }
@@ -5269,6 +5273,14 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .bg-gray-dark:not([style*="background-"]) + .bg-gray-dark:not([style*="background-"]) {
+	padding-top: 0;
+}
+
+.bg-gray-turquesa {
+	background-color:#24726d;
+}
+
+.bg-gray-turquesa:not([style*="background-"]) + .bg-gray-turquesa:not([style*="background-"]) {
 	padding-top: 0;
 }
 
@@ -8805,4 +8817,10 @@ html.rd-navbar-fixed-linked .page {
 .layer-6 {
 	top: 24%;
 	left: 19.5%;
+}
+
+/* Icone bootstrap */
+
+.bi{
+	font-size: 3em;
 }
