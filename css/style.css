@@ -5855,7 +5855,7 @@ html.tablet .ui-to-top {
 	height: 48px;
 	line-height: 48px;
 	cursor: pointer;
-	color: #cccccc;
+	color: #ffffff;
 	background-color: transparent;
 	border: none;
 	display: none;
@@ -5883,7 +5883,7 @@ html.tablet .ui-to-top {
 .rd-navbar-toggle span:after, .rd-navbar-toggle span:before, .rd-navbar-toggle span {
 	width: 24px;
 	height: 4px;
-	background-color: #cccccc;
+	background-color: #ffffff;
 	backface-visibility: hidden;
 	border-radius: 0;
 }
