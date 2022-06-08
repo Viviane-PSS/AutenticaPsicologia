@@ -3,6 +3,6 @@
 }
 
 .efeito{
-    opacity: 0.5;
+    opacity: 0.7;
     transition: opacity 1s;
 }
