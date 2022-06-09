@@ -1105,9 +1105,4 @@
 		loop: true
     });
 
-	setTimeout(() => {
-		let img=document.querySelector("#imghome")
-		img.src="images/Prancheta_11Alta.png"
-	}, 4200);
-
 }());
