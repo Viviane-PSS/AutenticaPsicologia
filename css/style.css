@@ -475,6 +475,7 @@ a[href*='tel'], a[href*='mailto'] {
 .block-decorate-img img {
 	box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.09);
 	margin-top: 110px;
+	vertical-align: bottom;
 }
 
 /*
@@ -1623,6 +1624,7 @@ hr {
 .button-190 {
 	min-width: 190px;
 	padding: 17px 35px;
+	
 }
 
 .button-block {
