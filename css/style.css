@@ -474,8 +474,14 @@ a[href*='tel'], a[href*='mailto'] {
 
 .block-decorate-img img {
 	box-shadow: 1px 5px 10px 0px rgba(0, 0, 0, 0.09);
-	margin-top: 110px;
+	/* margin-top: 0px; */
 	vertical-align: bottom;
+}
+
+@media (min-width: 1400px) {
+	.block-decorate-img img {
+		 margin-top: 110px; 
+	}
 }
 
 /*
@@ -8729,7 +8735,7 @@ html.rd-navbar-fixed-linked .page {
 		font-family: "Poppins", sans-serif;
 		font-weight: 700;
 		position: absolute;
-		content: "0" counter(button) " ";
+		content: counter(button) " ";
 		top: -4px;
 		right: -35px;
 		line-height: 1;
